@@ -5,7 +5,7 @@ import { Ticket } from "./Ticket"
 import { FilterBar } from "./FilterBar"
 
 export const TicketList = () => {
-    const [allTickets, setAllTickets] = useState([])
+  const [allTickets, setAllTickets] = useState([])
   const [showEmergency, setShowEmergency] = useState(false)
   const [filteredTickets, setFilteredTickets] = useState([])
   const [searchTerm, setSearchTerm] = useState('')
